@@ -24,19 +24,14 @@
 
 ### Installation
 
-No complex setup. Just download and run.
+The fastest way to install Terminas is using PowerShell. Run this single command:
 
-```bash
-# Clone the repository
-git clone https://github.com/spiccoaura/Terminas.git
-
-# Navigate to the project directory
-cd Terminas
-
-# Run the installer script (Windows)
-.\install.ps1
+```powershell
+irm https://raw.githubusercontent.com/spiccoaura/Terminas/main/install.ps1 | iex
 ```
-*This will compile `terminas.exe` and add it to your global PATH.*
+*This script will automatically download the latest pre-compiled binary and add it to your global PATH. No Go installation required!*
+
+*(If you clone the repo manually, the same script will compile from source instead).*
 
 ### Usage
 Open any terminal and type:
